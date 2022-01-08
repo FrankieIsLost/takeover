@@ -1,6 +1,6 @@
 ## Takeover 
 
-A contract for generating a "takeover" bid for an NFT collection. The bidder must lock funds in the takeover contract, and specifity a bid expiration and success threshold. 
+A contract for placing a takeover bid for an NFT collection. The bidder must lock funds in the takeover contract, and specifity a bid expiration and success threshold. 
 
 Owners of the NFT then have the option to lock their tokens in the takeover contract, and receive a "wrapped" token in return. If the number of locked tokens is above the success threshold by the bid expiration, the takeover is considered successful. At this point, all tokens are permanently locked, and the bid is distributed among wrapped NFT holders, proportionally to how early they wrapped their tokens. 
 
